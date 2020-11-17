@@ -1,3 +1,7 @@
+# PRE-REQUISITE
+# !pip install requests
+# !pip install beautifulsoup4
+
 # This program will fetch data like number of followers and following
 # from the specified instagram account using beautifulSoup Module
 
