@@ -1,3 +1,7 @@
+# PRE-REQUISITE
+# !pip install random2
+# !pip install Arrays
+
 import random 
 import array 
   
@@ -33,6 +37,7 @@ p = "".join(random.sample(comb_string,9))
 #print password of len 9
 print(p)
 
+# getting random lists of digits, characters, symbols
 rand_digit = random.choice(DIGITS) 
 rand_upper = random.choice(UPCASE_CHARACTERS) 
 rand_lower = random.choice(LOCASE_CHARACTERS) 
@@ -40,8 +45,7 @@ rand_symbol = random.choice(SYMBOLS)
 
 temp_pass = rand_digit + rand_upper + rand_lower + rand_symbol
 
-
-
+# initializing an empty string to generate a password
 password = "" 
 for x in temp_pass: 
         password = password + x 
