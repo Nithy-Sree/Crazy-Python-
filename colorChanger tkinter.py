@@ -1,4 +1,5 @@
 # pip install tkinter
+# random is built-in module in python
 
 import tkinter as tk
 import random
