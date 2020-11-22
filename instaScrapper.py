@@ -33,6 +33,7 @@ def scrape(username):
 
 # input the username of the account you need to fetch
 USERNAME = "sivakarthikeyan"
+# USERNAME = input().strip()
 
 # storing the scraped data into a variable
 data = scrape(USERNAME)
